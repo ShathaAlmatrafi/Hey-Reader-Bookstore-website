@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Cart</title>
+</head>
+<body>
+    <nav>
+        <h1 id="logo"> <span id="heartLogo">&#9825</span> Hey Reader</h1>
+        <ul> 
+            <li ><a href="HeyReader.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="ContactUs.html">Contact</a></li>
+            <li><a href="booksPage.html">Books</a>
+                <div class="sub-menu">
+                    <ul>
+                        <li><a href="booksPage.html#booksCategory1">Self Development</a></li>
+                        <li><a href="booksPage.html#booksCategory2">Novels</a></li>
+                        <li><a href="booksPage.html#booksCategory3">Young Adults</a></li>
+                        <li><a href="booksPage.html#booksCategory4">Computer Scince</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="profile.html"><img src="./images/user.png" alt="profile" height="30px" width="30px"> </a></li>
+            <li><a href="Cart.html"><img src="./images/shopping-cart.png" alt="cart" height="30px" width="30px"> </a></li>
+        </ul>
+    </nav>     
+
+    <hr>
+    <!-- Cart section-->
+    <div class="pageTitle">
+        <h1>&#9825 Cart</h1>
+    </div>
+        
+        <hr>
+
+        <!-- First book -->
+        <div class="bookContiner">
+
+            <div class="CardBookImage"> 
+                <img src="./images/computerScience/dataMining.jpg" alt="NodeJs bookCover" height="120" width="80" >
+            </div>
+            
+            <div class="CardBookImage">
+                    <label for="quantity">Quantity</label>
+                    <input type="text" name="quantity" id="quantity1" value="1">
+                    <input id = "inc" type="submit" height="10px" width="20px" value=" + " onclick = "increment('quantity1', 'price1', 'total')">
+                    <input id = "dec" type="submit" height="10px" width="10px" value=" - " onclick = "decrement('quantity1', 'price1', 'total')">
+            </div>
+
+            <div class="CardBookImage">
+                <label for="price">Price:</label>
+                <input type="text" name="price" id="price1" value="95.5">
+            </div>
+
+            <div class="CardBookImage">
+                <img src="./images/cart/trash icon.png" alt="Delete" height="20" width="20">
+            </div>
+
+        </div>     
+
+
+    <br>
+
+    <!-- Second book -->
+        <div class="bookContiner">
+            <div class="CardBookImage"> 
+                <img src="./images/selfDevelopment/thePowerOfNow.jpg" alt="Java book" height="120" width="80" style="display: inline">
+            </div>
+            
+            <div class="CardBookImage">
+                <label for="quantity">Quantity</label>
+                <input type="text" name="quantity" id="quantity2" value="1">
+                <input id = "inc" type="submit" height="10px" width="20px" value=" + " onclick = "increment('quantity2', 'price2', 'total')">
+                <input id = "dec" type="submit" height="10px" width="10px" value=" - " onclick = "decrement('quantity2', 'price2', 'total')">
+            </div>
+
+            <div class="CardBookImage">
+                <label for="price">Price:</label>
+                <input type="text" name="price" id="price2" value="45">
+            </div>
+
+            <div class="CardBookImage">
+                <img src="./images/cart/trash icon.png" alt="Delete" height="20" width="20">
+            </div>
+
+        </div>    
+    <br>
+     <!-- Third book -->
+     <div class="bookContiner">
+        <div class="CardBookImage"> 
+            <img src="./images/youngAdults/theSilentPatient.jpg" alt="not my fault book" height="120" width="80" style="display: inline">
+        </div>
+        
+        <div class="CardBookImage">
+            <label for="quantity">Quantity</label>
+            <input type="text" name="quantity" id="quantity3" value="1">
+            <input id = "inc" type="submit" height="10px" width="20px" value=" + "  onclick = "increment('quantity3', 'price3', 'total')">
+            <input id = "dec" type="submit" height="10px" width="10px" value=" - " onclick = "decrement('quantity3', 'price3', 'total')">
+        </div>
+
+        <div class="CardBookImage">
+            <label for="price">Price:</label>
+            <input type="text" name="price" id="price3" value="32.99" >
+        </div>
+
+        <div class="CardBookImage">
+            <img src="./images/cart/trash icon.png" alt="Delete" height="20" width="20">
+        </div>
+   
+
+    </div>    
+<br>
+
+    <!-- total and chekout button -->
+    <div>
+
+        <div style="align-items:center; margin: 0 auto; margin-left: 43%;">
+            <div class="ButtonContainer" style="float: left;">
+                <h1 for="total">Total:</h1>
+            </div>
+            <div class="ButtonContainer" style="float:left ;">
+                <input type="text" name="total" id="total" value="173.49" style="height:50px; width: 150px;" >
+            </div>
+        </div>
+
+        <br><br><br>
+        <div class="ButtonContainer">
+            <a href="payment.html"> <input type="submit" class="Buttons"   value="Chekout"> </a>
+        </div>
+
+    </div>
+        
+    <br>   
+    <script type="text/javascript">
+
+
+        function increment(quantity, price, total) {
+
+            initialQuantity = parseInt(document.getElementById(quantity).value);
+
+            document.getElementById(quantity).value = parseInt(document.getElementById(quantity).value) + 1;
+
+            document.getElementById(price).value =  (parseFloat(document.getElementById(price).value) / initialQuantity) * parseFloat(document.getElementById(quantity).value);
+
+            document.getElementById(total).value = parseFloat(document.getElementById(total).value) + parseFloat(document.getElementById(price).value) / document.getElementById(quantity).value;
+
+        }
+
+        function decrement(quantity, price, total) {
+
+            initialQuantity = parseInt(document.getElementById(quantity).value);
+
+            if (parseInt(document.getElementById(quantity).value) > 1) 
+                document.getElementById(quantity).value = parseInt(document.getElementById(quantity).value) - 1;
+            else
+                document.getElementById(quantity).value = 1;
+
+            document.getElementById(price).value =  (parseFloat(document.getElementById(price).value) / initialQuantity) * parseFloat(document.getElementById(quantity).value);
+
+            document.getElementById(total).value = parseFloat(document.getElementById(total).value) - parseFloat(document.getElementById(price).value) / document.getElementById(quantity).value;
+
+        }
+
+
+
+    </script>
+</body>
+</html>
