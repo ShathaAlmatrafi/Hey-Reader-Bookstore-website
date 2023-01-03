@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <!-- i make this embedded so it is not effect tables in other html pages -->
+    <style>
+
+        table,tr,td,th {
+            color: rgb(126, 126, 126);
+            padding: 10px;
+            border-collapse: collapse;
+            margin: 0 auto;
+            margin-top: 20px;
+            text-align: center;
+            border-width: 2px;
+            border: #62557D solid;
+            font-size: 20px;}
+
+        th{ color:  #FF6161; }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1 id="logo"> <span id="heartLogo">&#9825</span> Hey Reader</h1>
+        <ul> 
+            <li ><a href="HeyReader.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="ContactUs.html">Contact</a></li>
+            <li><a href="booksPage.html">Books</a>
+                <div class="sub-menu">
+                    <ul>
+                        <li><a href="booksPage.html#booksCategory1">Self Development</a></li>
+                        <li><a href="booksPage.html#booksCategory2">Novels</a></li>
+                        <li><a href="booksPage.html#booksCategory3">Young Adults</a></li>
+                        <li><a href="booksPage.html#booksCategory4">Computer Scince</a></li>
+                    </ul>
+                </div>
+            
+            <li><a href="profile.html"><img src="./images/user.png" alt="profile" height="30px" width="30px"> </a></li>
+            <li><a href="Cart.html"><img src="./images/shopping-cart.png" alt="cart" height="30px" width="30px"> </a></li>
+        </ul>
+    </nav>     
+    <hr>   
+
+     <h1 class ="pageTitle">&#9825; About</h1>
+     <hr>
+
+     <div class="aboutSectionsContainer">
+        <h2> our vision </h2>
+        <hr>
+        <p class="vision">
+            “Books are a uniquely portable magic” <br>
+            Our ultimate goal in HeyReader team is to 
+            provide our special clients with a wide 
+            range of top collections of books, and 
+            to deliver this service with pleasurable 
+            experience and best value.
+        </p>
+     </div>
+
+     <div class="aboutSectionsContainer">
+        <h2>who we are publishing for </h2>
+        <hr>
+        <table class="publishingTable" style="border-width:2px ;">
+            <tr>
+              <th>Publishing house</th>
+              <th>Author</th>
+            </tr>
+            <tr>
+                <td>Harper Collins</td>
+                <td>Agatha Christie</td>
+            </tr>
+            <tr>
+                <td>Simon & Schuster</td>
+                <td>Sidney Sheldon</td>
+            </tr>
+            <tr>
+                <td>Hachette</td>
+                <td>Stephen King</td>
+            </tr>
+            <tr>
+                <td>Penguin Random House</td>
+                <td>Anne Golon</td>
+            </tr>
+            <tr>
+                <td>Macmillan</td>
+                <td>Gilbert Patten</td>
+            </tr>
+          </table>
+     </div>
+
+
+
+    
+</body>
+</html>
