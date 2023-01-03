@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Contact Us </title>
+
+<link rel="stylesheet" href="stylesheet.css">
+
+</head>
+<body>
+  <nav>
+    <h1 id="logo"> <span id="heartLogo">&#9825</span> Hey Reader</h1>
+    <ul> 
+        <li ><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="ContactUs.html">Contact</a></li>
+        <li><a href="booksPage.html">Books</a>
+            <div class="sub-menu">
+                <ul>
+                  <li><a href="booksPage.html#booksCategory1">Self Development</a></li>
+                  <li><a href="booksPage.html#booksCategory2">Novels</a></li>
+                  <li><a href="booksPage.html#booksCategory3">Young Adults</a></li>
+                  <li><a href="booksPage.html#booksCategory4">Computer Scince</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="profile.html"><img src="./images/user.png" alt="profile" height="30px" width="30px"> </a></li>
+        <li><a href="Cart.html"><img src="./images/shopping-cart.png" alt="cart" height="30px" width="30px"> </a></li>
+    </ul>
+</nav>     
+<hr>
+
+<h1>&#9825Contact Us</h1>
+<hr>
+  <div class="formContainer">
+  <form action="">
+    <fieldset >
+      <legend><h2>Contact the help team:</h2></legend>
+    
+    <div>
+      <div style= "float:left;">
+        <br> 
+        <label for="name">Your name:</label>
+         <input type="text" id="name" name="name">
+         <br><br>
+         <label for="email">Your email:</label>
+         <input type="email" id="email" name="email">
+         <br><br>
+       </div>
+
+       <div style= "float:right;">
+        <label for="" ></label>
+         <p><label for="review">What we can help you with?</label></p>
+          <textarea id="review" name="review" rows="15" cols="50"></textarea>
+        </div>
+    </div>
+     </fieldset>
+     <div class="ButtonContainer">
+      <input type="submit" value="Submit" class="Buttons">
+     </div>
+    
+      <br>
+    
+    
+    
+    
+    </form>
+  </div>
+<br>
+</body>
+</html> 
