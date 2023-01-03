@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Books </title>
+	<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+	<nav>
+		<h1 id="logo"> <span id="heartLogo">&#9825</span> Hey Reader</h1>
+		<ul> 
+			<li ><a href="HeyReader.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="ContactUs.html">Contact</a></li>
+			<li><a href="booksPage.html">Books</a>
+				<div class="sub-menu">
+					<ul>
+						<li><a href="booksPage.html#booksCategory1">Self Development</a></li>
+                        <li><a href="booksPage.html#booksCategory2">Novels</a></li>
+                        <li><a href="booksPage.html#booksCategory3">Young Adults</a></li>
+                        <li><a href="booksPage.html#booksCategory4">Computer Scince</a></li>
+					</ul>
+				</div>
+			
+			<li><a href="profile.html"><img src="./images/user.png" alt="profile" height="30px" width="30px"> </a></li>
+			<li><a href="Cart.html"><img src="./images/shopping-cart.png" alt="cart" height="30px" width="30px"> </a></li>
+		</ul>
+	</nav>     
+	<hr>
+	<h1>&#9825 Take your pick of books</h1>
+	<hr>
+	<div class="booksCategoryContainer">
+	
+	<h2>&#10023; Self Development Books</h2>
+	<div id = "booksCategory1">
+
+	<div class = "booksRows">
+	<figure class = "firstFigure">
+		<img src="./images/selfDevelopment/atomicHabits.jpg" width="120" height="180">
+		<figcaption class = "bookName"><a class = "aboutBook" href="https://jamesclear.com/atomic-habits">Atomic Habits </a><br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+	</figure>
+
+	<figure>
+		<img src="./images/selfDevelopment/thePlacesThatScaresYou.jpg" width="120" height="180">
+		<figcaption class = "bookName">The PlacesThat Scares You <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+	</figure>
+
+	<figure>
+		<img src="./images/selfDevelopment/ikigai.jpg" width="120" height="180">
+		<figcaption class = "bookName">Ikigai <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+	</figure>
+
+	<figure>
+		<img src="./images/selfDevelopment/lettingGo.jpg" width="120" height="180">
+		<figcaption class = "bookName">Letting Go <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+	</figure>
+
+	<figure>
+		<img src="./images/selfDevelopment/theCourageToBeDisliked.jpg" width="120" height="180">
+		<figcaption class = "bookName">The Courage To Be Disliked <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+	</figure>
+	</div>
+	
+	<br>
+	<div class = "booksRows">
+		<figure class = "firstFigure">
+			<img src="./images/selfDevelopment/theGiftsOfImperfection.jpg" width="120" height="180">
+			<figcaption class = "bookName"><a class = "aboutBook" href="https://brenebrown.com/book/the-gifts-of-imperfection/">The Gifts Of Imperfection </a> <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/selfDevelopment/optionB.jpg" width="120" height="180">
+			<figcaption class = "bookName">Option B <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/selfDevelopment/theWisdomOfNoEscape.jpg" width="120" height="180">
+			<figcaption class = "bookName">The Wisdom Of No Escape <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/selfDevelopment/whenThingsFallApart.jpg" width="120" height="180">
+			<figcaption class = "bookName">When Things Fall Apart <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/selfDevelopment/thePowerOfNow.jpg" width="120" height="180">
+			<figcaption class = "bookName">The Power Of Now <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+	</div>
+	</div>
+
+	<br><br>
+
+	<h2>&#10023; Best-seller Novels</h2>
+	<div id = "booksCategory2">
+	<div class = "booksRows">
+		<figure class = "firstFigure">
+			<img src="./images/best-sellerNovels/theAlchemist.jpg" width="120" height="180">
+			<figcaption class = "bookName">The Alchemist <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/best-sellerNovels/theInvisibleLifeOfAddieLarue.jpg" width="120" height="180">
+			<figcaption class = "bookName">The Invisible Life Of Addie Larue <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/best-sellerNovels/hamnet.jpg" width="120" height="180">
+			<figcaption class = "bookName">Hamnet <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/best-sellerNovels/thePerksOfBeingAWallflower.jpg" width="120" height="180">
+			<figcaption class = "bookName">The Perks Of Being A Wallflower <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/best-sellerNovels/beforeTheCoffeeGetsCold.jpg" width="120" height="180">
+			<figcaption class = "bookName">Before The Coffee Gets Cold <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+	</div>
+
+	<br>
+	<div class = "booksRows">
+		<figure class = "firstFigure">
+			<img src="./images/best-sellerNovels/theMidnightLibrary.jpg" width="120" height="180">
+			<figcaption class = "bookName">The Midnight Library <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/best-sellerNovels/aThousandSplendidSuns.jpg" width="120" height="180">
+			<figcaption class = "bookName">A Thousand Splendid Suns <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/best-sellerNovels/aLittleLife.jpg" width="120" height="180">
+			<figcaption class = "bookName">A Little Life <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/best-sellerNovels/theRemainsOfTheDay.jpg" width="120" height="180">
+			<figcaption class = "bookName">The Remains Of The Day <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/best-sellerNovels/kafkaOnTheShore.jpg" width="120" height="180">
+			<figcaption class = "bookName">Kafka On The Shore <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+	</div>
+	</div>
+
+	<br><br>
+
+	<h2>&#10023; Young Adults Books</h2>
+	<div id = "booksCategory3">
+	<div class = "booksRows">
+		<figure class = "firstFigure">
+			<img src="./images/youngAdults/theFaultInOurStars.jpg" width="120" height="180">
+			<figcaption class = "bookName">The Fault In Our Stars <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/youngAdults/danceOfThieves.jpg" width="120" height="180">
+			<figcaption class = "bookName">Dance Of Thieves <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/youngAdults/heartless.jpg" width="120" height="180">
+			<figcaption class = "bookName">Heartless <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/youngAdults/beautifulWorld.jpg" width="120" height="180">
+			<figcaption class = "bookName">Beautiful World, Where Are You? <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/youngAdults/allTheLightWeCannotSee.jpg" width="120" height="180">
+			<figcaption class = "bookName">All The Light We Cannot See <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+	</div>
+	
+	<br>
+
+	<div class = "booksRows">
+		<figure class = "firstFigure">
+			<img src="./images/youngAdults/oneOfUsIsLying.jpg" width="120" height="180">
+			<figcaption class = "bookName">One Of Us Is Lying <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/youngAdults/theSilentPatient.jpg" width="120" height="180">
+			<figcaption class = "bookName">The Silent Patient <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/youngAdults/twoCanKeepASecret.jpg" width="120" height="180">
+			<figcaption class = "bookName">Two Can Keep A Secret <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/youngAdults/allTheBrightPlaces.jpg" width="120" height="180">
+			<figcaption class = "bookName">All The Bright Places <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/youngAdults/littleFiresEverywhere.jpg" width="120" height="180">
+			<figcaption class = "bookName">Little Fires Everywhere <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+	</div>
+	</div>
+	
+	<br><br>
+
+	<h2>&#10023; Computer Science Books</h2>
+	<div id = "booksCategory4">
+	<div class = "booksRows">
+		<figure class = "firstFigure">
+			<img src="./images/computerScience/fundamentalsOfDatabaseSystems.jpg" width="120" height="180">
+			<figcaption class = "bookName">Fundamentals Of Database Systems <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/computerScience/dataStructuresAndAlgorithmsMadeEasy.jpg" width="120" height="180">
+			<figcaption class = "bookName">Data Structures and Algorithms Made Easy <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/computerScience/dataScienceAndBigDataAnalytics.jpg" width="120" height="180">
+			<figcaption class = "bookName">Data Science and Big Data Analytics <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/computerScience/cProgramming.jpg" width="120" height="180">
+			<figcaption class = "bookName">C Programming <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/computerScience/operatingSystemConcept.jpg" width="120" height="180">
+			<figcaption class = "bookName">Operating System Concept <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+	</div>
+	
+	<br>
+	<div class = "booksRows">
+		<figure class = "firstFigure">
+			<img src="./images/computerScience/deepLearning.jpg" width="120" height="180">
+			<figcaption class = "bookName">Deep Learning <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/computerScience/dataMining.jpg" width="120" height="180">
+			<figcaption class = "bookName">Data Mining <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/computerScience/naturalLanguageProcessing.jpg" width="120" height="180">
+			<figcaption class = "bookName">Natural Language Processing <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/computerScience/machineLearning.jpg" width="120" height="180">
+			<figcaption class = "bookName">Machine Learning <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+
+		<figure>
+			<img src="./images/computerScience/computerArchitecture.jpg" width="120" height="180">
+			<figcaption class = "bookName">Computer Architecture <br> <input type="submit" class="addToCart" value=" &#128722"></figcaption>
+		</figure>
+	</div>
+	</div>
+</div>
+
+
+
+</body>
+</html>
