@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Payment</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body> 
+    <nav>
+        <h1 id="logo"> <span id="heartLogo">&#9825</span> Hey Reader</h1>
+        <ul> 
+            <li ><a href="HeyReader.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="ContactUs.html">Contact</a></li>
+            <li><a href="booksPage.html">Books</a>
+                <div class="sub-menu">
+                    <ul>
+                        <li><a href="booksPage.html#booksCategory1">Self Development</a></li>
+                        <li><a href="booksPage.html#booksCategory2">Novels</a></li>
+                        <li><a href="booksPage.html#booksCategory3">Young Adults</a></li>
+                        <li><a href="booksPage.html#booksCategory4">Computer Scince</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="profile.html"><img src="./images/user.png" alt="profile" height="30px" width="30px"> </a></li>
+            <li><a href="Cart.html"><img src="./images/shopping-cart.png" alt="cart" height="30px" width="30px"> </a></li>
+        </ul>
+    </nav>     
+    <hr>   
+
+     <h1 class ="pageTitle">&#9825; Payment</h1>
+     <hr>
+        <div class="formContainer">
+            <form method="post">
+                <fieldset class = "paymentContainer">
+                    <legend class = "paymentInfo"><h2 class = "paymentHeading">Personal Details:</h2></legend>
+
+                    <div style = "margin: auto; align-items: center;  ">
+                        <label class = "formLabel" for="first-name">First name: </label>
+                        <input class= " fieldsetTextfield" id="first-name" type="text" required >
+
+                        <label class = "formLabel" for="last-name">Last name: </label>
+                        <input class= " fieldsetTextfield" id="last-name" type="text" required >
+                    </div> <br>
+
+                    <div>
+                        <label class = "formLabel" for="user-email">E-mail: </label>
+                        <input class= " fieldsetTextfield"  id="user-email" type="tel" required >
+
+                        <label class = "formLabel" for="user-phone">Phone: </label> 
+                        <input class= " fieldsetTextfield" id="user-phone" type="tel" required >
+                    </div>
+                </fieldset>
+                <br>
+
+                <fieldset class = "paymentContainer">
+                    <legend class = "paymentInfo"><h2 class = "paymentHeading">Shipment Details:</h2></legend>
+
+                    <div style = "margin: auto; align-items: center;  ">
+                        <label for="country">Country: </label>
+                        <input class= " fieldsetTextfield" id="country" type="text" required >
+
+                        <label for="city">City: </label>
+                        <input class= " fieldsetTextfield" id="city" type="text" required >
+                    </div> <br>
+
+                    <div>
+                        <label for="neighborhood">Neighborhood: </label>
+                        <input class= " fieldsetTextfield" id="neighborhood" type="text" required >
+
+                        <label for="street">Street: </label> 
+                        <input class= " fieldsetTextfield"  id="street" type="text" required >
+                    </div>
+                </fieldset>
+                <br>
+
+                <fieldset class = "paymentContainer">
+                    <legend class = "paymentInfo"><h2 class = "paymentHeading">Payment Details:</h2></legend>
+
+                        <div style="display:inline; float: left;">
+                            <label for="payment-method">Payment method: </label>
+                            <select id="payment-method" style="display: inline;">
+                                <option value="mada">Mada</option>
+                                <option value="visa">Visa</option>
+                                <option value="mastercard">Mastercard</option>
+                                <option value="Tabby">Tabby</option>
+                            </select>
+                        </div>
+
+                        <h4 id = "total" style="width: 100px;">Total: 195.90$ </h4>
+                </fieldset>
+                <div class = "ButtonContainer">
+                    <input  type ="submit" class="Buttons" type="button" value="confirm">
+                </div>
+            </form>
+        </div>
+</body>
+</html>
